@@ -1,0 +1,92 @@
+/* ==========================================================================
+ Counter Section Style
+ ========================================================================== */
+ #counter{
+  background: url(../img/bg/bg-counter.png) right no-repeat;
+  position: relative;
+  padding-bottom: 50px!important;
+  .counter-text{
+    height: 100%;
+    width: 100%;
+    display: table;
+     > div{
+      vertical-align: middle;
+      display: table-cell;
+    }
+    h3{
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .desc-text{
+      p{
+        margin-bottom: 15px;
+      }
+    }
+   }
+  .counter-box{
+    padding: 48px 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 9px 16px 0px rgba(225, 225, 225, 0.004);
+    text-align: center;
+    position: relative;
+    .icon-o{
+      font-size: 90px;
+      color: rgba(255, 255, 255, 0.3);
+      z-index: 2;
+      font-weight: 400;
+      position: absolute;
+      bottom: -40px;
+      width: 100%;
+      right: -85px;
+    }
+    h3{
+      color: #ffffff;
+      font-size: 60px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+    }
+    p {
+      color: #fff;
+      font-weight: 500;
+      font-size: 18px;
+    }
+  }
+  .bg-color-1{
+    background-image: -moz-linear-gradient( 0deg, rgb(60,150,255) 0%, rgb(45,251,255) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(60,150,255) 0%, rgb(45,251,255) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(60,150,255) 0%, rgb(45,251,255) 100%);
+  }
+  .bg-color-2{
+    background-image: -moz-linear-gradient( 0deg, rgb(0,176,155) 0%, rgb(150,201,61) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(0,176,155) 0%, rgb(150,201,61) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(0,176,155) 0%, rgb(150,201,61) 100%);
+  }
+  .bg-color-3{
+    background-image: -moz-linear-gradient( 0deg, rgb(78,84,200) 0%, rgb(143,148,251) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(78,84,200) 0%, rgb(143,148,251) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(78,84,200) 0%, rgb(143,148,251) 100%);
+  }
+  .bg-color-4{
+    background-image: -moz-linear-gradient( 0deg, rgb(177,123,235) 0%, rgb(129,97,208) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(177,123,235) 0%, rgb(129,97,208) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(177,123,235) 0%, rgb(129,97,208) 100%);
+  }
+}
+.btn-subtitle{
+    color: #191c1e;
+    background: #dbecff;
+    text-align: center;
+    border-radius: 30px;
+    padding: 6px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }

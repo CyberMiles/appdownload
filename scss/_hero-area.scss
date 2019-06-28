@@ -1,0 +1,106 @@
+/* ==========================================================================
+   Hero Area
+   ========================================================================== */
+  .hero-area{
+    background: #3c96ff;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    .overlay{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;     
+      left: 0px;
+      background-image: -moz-linear-gradient( 0deg, rgb(60,150,255) 0%, rgb(45,251,255) 100%);
+      background-image: -webkit-linear-gradient( 0deg, rgb(60,150,255) 0%, rgb(45,251,255) 100%);
+      background-image: -ms-linear-gradient( 0deg, rgb(60,150,255) 0%, rgb(45,251,255) 100%);
+    }
+    .contents{
+      padding: 160px 0 140px;
+      h2{ 
+        color: #fff;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 60px;
+        margin-bottom: 25px;
+      }
+      p{
+        color: #fff;
+        font-size: 14px;
+        line-height: 26px;
+      }
+      .btn{
+        margin-top: 40px; 
+        margin-right: 20px;
+        text-transform: uppercase;
+      }
+      .btn-border{
+        border: 2px solid #fff;
+        color: #fff;
+      }
+    }
+
+   .intro-img{
+      padding: 148px 0 0px;
+      img{
+        display: block;
+        height: auto;
+        max-width: 100%;
+      }
+    }
+  }
+
+/* ==========================================================================
+ Hero Production version
+ ========================================================================== */
+.hero-area-2{
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    .overlay{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;     
+      left: 0px;
+      background-image: -moz-linear-gradient( 0deg, rgb(60,150,255) 0%, rgb(45,251,255) 100%);
+      background-image: -webkit-linear-gradient( 0deg, rgb(60,150,255) 0%, rgb(45,251,255) 100%);
+      background-image: -ms-linear-gradient( 0deg, rgb(60,150,255) 0%, rgb(45,251,255) 100%);
+    }
+    .contents{
+      padding: 160px 0 140px;
+      h2{ 
+        color: #fff;
+        font-size: 42px;
+        line-height: 60px;
+        margin-bottom: 25px;
+        font-weight: 600;
+      }
+      p{
+        color: #fff;
+        font-size: 14px;
+        line-height: 26px;
+      }
+      .btn{
+        margin-top: 40px; 
+        margin-right: 20px;
+        text-transform: uppercase;
+      }
+      .btn-border{
+        border: 2px solid #fff;
+        color: #fff;
+      }
+    }
+    .intro-img{
+      padding: 180px 0 0px;
+      img{
+        display: block;
+        height: auto;
+        max-width: 100%;
+      }
+    }
+  }
+
+  

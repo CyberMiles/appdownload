@@ -1,0 +1,230 @@
+/* ==========================================================================
+ Features Section Start
+ ========================================================================== */
+ #features{
+  background: #f6fbfd;
+  .feature-thumb{
+    margin-top: 15px;
+  }
+  .nav{
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    .nav-item{
+      position: relative;
+      z-index: 1;
+      display: block;
+      margin: 0;
+      text-align: center;
+      -webkit-flex: 1;
+      -moz-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      .nav-link{
+        font-size: 20px;
+        color: #a0a6ad;
+        padding: 30px 0;
+        line-height: 1;
+        -webkit-transition: color 0.2s;
+        -moz-transition: color 0.2s;
+        transition: color 0.2s;
+        border: none;
+        background: transparent;
+        i{
+          font-size: 40px;
+          margin-bottom: 5px;
+          display: block;
+          -webkit-transition: color 0.2s;
+          -moz-transition: color 0.2s;
+          transition: color 0.2s;
+        }
+      }
+    }
+  }
+  .nav-tabs{
+    background: #f6fbfd;
+    margin-top: -100px;
+  }
+  .nav-tabs .nav-item.show .nav-link, 
+  .nav-tabs .nav-link.active{
+    border-bottom: 1px solid $preset;
+    color: #191c1e;
+    i{
+      background: -webkit-linear-gradient(left, #3c96ff 0%, #2dfbff 100%);
+      background: -o-linear-gradient(left, #3c96ff 0%, #2dfbff 100%);
+      background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .tab-content{
+    margin-top: 15px;
+    text-align: center;
+    .tab-pane{
+      padding: 20px 15px;
+      font-size: 14px;
+      line-height: 26px;
+    }
+  }
+ }
+.text-wrapper{
+  height: 100%;
+  width: 100%;
+  display: table;
+  > div {
+    vertical-align: middle;
+    display: table-cell;
+  }
+  h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .btn-rm{
+    margin-top: 15px;
+  }
+}
+
+/* ==========================================================================
+  features-two
+   ========================================================================== */
+   #features-two{
+    .img-thumb{
+      margin-bottom: 15px;
+    }
+   }
+
+ /* ==========================================================================
+    App Features Section Style
+   ========================================================================== */
+  #app-features{
+    background: #f6fbfd;
+    .content-left {
+      position: relative;
+      span {
+        float: right;
+        margin-left: 25px;
+      }
+    }
+    .content-right {
+      position: relative;
+      span {
+        float: left;
+        margin-right: 25px;
+      }
+    }
+    .box-item {
+      margin: 30px 0;
+      .icon {
+        text-align: center;
+        margin: 0 15px;
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        text-align: center;
+        position: relative;
+        background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+        background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+        background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+        z-index: 1;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        i {
+          color: #fff;
+          font-size: 24px;
+          line-height: 60px;
+          -webkit-transition: all 0.2s linear;
+          -moz-transition: all 0.2s linear;
+          -o-transition: all 0.2s linear;
+          transition: all 0.2s linear;
+        }
+      }
+      .text {
+        h4 {
+          font-weight: 700;
+          font-size: 22px;
+          margin-bottom: 15px;
+          line-height: 22px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 26px;
+        }
+      }
+    }
+    .content-left{
+      .text{
+        margin-right: 90px;
+      }
+    }
+    .content-right{
+      .text{
+        margin-left: 90px;
+      }
+    }
+    .show-box {
+      text-align: center;
+      margin: 15px 0;
+      img{
+        width: 100%; 
+      }
+    }
+  }
+
+/* ==========================================================================
+ Screens Section Start
+ ========================================================================== */
+.screens-shot{
+  background: #f6fbfd;
+}
+#screens .owl-controls .owl-buttons {
+  position: relative;
+  top: -215px;
+  left: 0;
+}
+
+#screens .owl-controls .owl-buttons div.owl-prev {
+  float: left;
+  margin-left: -60px;
+}
+
+#screens .owl-controls .owl-buttons div.owl-next {
+  float: right !important;
+  margin-right: -60px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  width: 40px;
+  height: 40px;
+  display: block !important;
+  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%)!important;
+  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%)!important;
+  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%)!important;
+  text-align: center;
+  display: inline-block;
+  opacity: 1 !important;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  opacity: 0.8 !important;
+}
+
+.owl-theme .owl-controls .owl-buttons div i {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 35px;
+}

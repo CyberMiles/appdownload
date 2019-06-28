@@ -1,0 +1,112 @@
+ /* ==========================================================================
+   Portfolio Section
+   ========================================================================== */
+  #portfolios{
+     background: #f6fbfd;
+    .mix{
+      padding: 0px;
+    }
+    .portfolio-item{
+       padding: 15px;
+    }
+  }
+  #portfolio .mix{
+    display: none;
+  }
+  .controls{
+    text-align: center;
+    padding: 0px 0px 20px;  
+    a{
+      background: #fff;
+      border-radius: 30px;
+      color: #191c1e!important;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 700;
+      margin: 15 7px 0px;
+      padding: 15px 30px;
+      text-transform: uppercase;
+      transition: all 0.3s ease 0s;
+      letter-spacing: 1px;
+    }
+    a:hover,
+    .active{
+      background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+      background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+      background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+      color: #fff!important;
+    }
+  }
+  .shot-item{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    img{
+      width: 100%;
+      height: 100%;
+      -webkit-transition-duration: 4000ms;
+      -o-transition-duration: 4000ms;
+      transition-duration: 4000ms;
+    }
+    .single-content{
+      background-color: rgba(22, 26, 39, 0.7);
+      opacity: 0.90;
+      height: 100%;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+      width: 100%;
+      .fancy-table{
+        display: table;
+        height: 100%;
+        left: 0;
+        position: relative;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+        .table-cell{
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+        }
+      }
+      .zoom-icon{
+        margin: 0 auto;
+       a{
+        color: $preset;
+        background: #fff;
+        width: 48px;
+        display: inline-block;
+        line-height: 50px;
+        border-radius: 50%;
+        font-size: 22px;
+        height: 48px;
+       }
+      }
+      h5{
+        color: #fff;
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        margin-top: 20px;
+      }
+      p{
+        color: #fff;
+        margin: 0 0 10px;
+      }
+    }
+  }
+  .shot-item:hover img {
+    -webkit-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    transform: scale(1.10);
+  }
+  .shot-item:hover .single-content{
+      opacity: 0.7;
+  }
