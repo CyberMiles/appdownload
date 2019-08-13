@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="cryptocurrency, CyberMiles, CMT, wallet, DAPP, decentralized app, staking">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <title>CyberMiles - Public Blockchain for E-commerce</title>
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120065893-18"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-120065893-18');
+    </script>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/line-icons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="stylesheet" href="css/responsive.css">
+
+  </head>
+  
+  <body>
+
+    <!-- Header Section Start -->
+    <header id="home" class="hero-area-2">    
+      <div class="overlay"></div>
+      <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+        <div class="container">
+          <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt=""></a>  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lni-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#home">홈</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#app-features">특징</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#staking">수익</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#fairplay">기브어웨이</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#payment">페이</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#screenshots">스크린 숏</a>
+              </li>                            
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#testimonial">Testimonial</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </nav>  
+      <div class="container">      
+        <div class="row space-100">
+          <div class="col-lg-7 col-md-12 col-xs-12">
+            <div class="contents">
+              <h2 class="head-title">CyberMiles App <br/> CyberMiles 공개 블록 체인의 모바일 클라이언트</h2>
+              <p>디지털 자산을 안전하게 관리하시며 분권화 된 블록체인 어플리케이션을 경험하십시오.</p>
+              <div class="header-button">
+                <a href="https://s3.cn-north-1.amazonaws.com.cn/cmtwallet/android/CMT-Wallet-Android.apk" class="btn btn-border-filled" onclick="gaSend('ent_android', 'install')">Android</a>
+                <a href="itms-services://?action=download-manifest&url=https://s3.cn-north-1.amazonaws.com.cn/cmtwallet/ios/manifest.plist" class="btn btn-border" onclick="gaSend('ent_ios', 'install')">iOS</a>
+                <br/><br/>
+                <a href="https://play.google.com/store/apps/details?id=io.cybermiles.cmtwallet" onclick="gaSend('appstore_android', 'install')"><img src="img/googleplay.png" width="150"></a>
+                <a href="https://itunes.apple.com/us/app/id1418378426" onclick="gaSend('appstore_ios', 'install')"><img src="img/appstore.png" width="150"></a>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-lg-block col-lg-5 col-md-12 col-xs-12">
+            <div class="intro-img">
+              <img src="img/intro-mobile.png" alt="">
+            </div>            
+          </div>
+        </div> 
+      </div>             
+    </header>
+    <!-- Header Section End --> 
+
+    <!-- features Section Start -->
+    <div id="app-features" class="section">
+      <div class="container">
+        <div class="section-header">   
+          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">특징</p>       
+          <h2 class="section-title wow fadeIn" data-wow-delay="0.2s">사이버마일즈 앱으로 무엇을 할 수 있습니까?</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-xs-12">
+            <div class="content-left text-right">
+              <div class="box-item left">
+                <span class="icon">
+                  <i class="lni-leaf"></i>
+                </span>
+                <div class="text">
+                  <h4>수익 받기</h4>
+                  <p>CMT를 스테이킹함으로 수익 받으며, 거버넌스에 참여할 수 있습니다</p>
+                </div>
+              </div>
+              <div class="box-item left">
+                <span class="icon">
+                  <i class="lni-dashboard"></i>
+                </span>
+                <div class="text">
+                  <h4>당첨되기</h4>
+                  <p>FairPlay를 참여하고 상품 동첨될 수 있습니다</p>
+                </div>
+              </div>
+              <div class="box-item left">
+                <span class="icon">
+                  <i class="lni-headphone-alt"></i>
+                </span>
+                <div class="text">
+                  <h4>관리하기</h4>
+                  <p>안전하게 CMT 자산을 입금, 저장 및 관리할 수 있습니다</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-lg-block col-lg-4 col-md-12 col-xs-12">
+            <div class="show-box">
+              <img src="img/features/features.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-xs-12">
+            <div class="content-right text-left">
+              <div class="box-item right">
+                <span class="icon">
+                  <i class="lni-shield"></i>
+                </span>
+                <div class="text">
+                  <h4>이전</h4>
+                  <p>디지털 자산을 신속하고 안전하게 전송할 수 있습니다</p>
+                </div>
+              </div>
+              <div class="box-item right">
+                <span class="icon">
+                  <i class="lni-star-filled"></i>
+                </span>
+                <div class="text">
+                  <h4>구매 및 판매</h4>
+                  <p>분산 된 시장을 통한 제품 구매 및 판매 (곧 제공 예정)</p>
+                </div>
+              </div>
+              <div class="box-item right">
+                <span class="icon">
+                  <i class="lni-cup"></i>
+                </span>
+                <div class="text">
+                  <h4>플레이</h4>
+                  <p>CyberMiles Blockchain에서 여러분의 사랑을 기록하는 것과 같은 흥미로운 DApps를 탐험 해볼 수 있습니다</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- features Section End -->
+
+    <!-- Features Section Start -->
+    <div id="features-two" class="section">
+      <div class="container">
+        <div id="staking" class="row">
+          <div class="d-none d-lg-block col-lg-6 col-md-12 col-sm-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+              <img class="img-fluid" src="img/features/staking.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="text-wrapper wow fadeInRight" data-wow-delay="0.6s">
+              <div>
+                <p class="btn btn-subtitle">스테이킹으로 수익 받기</p>  
+                <h3>CMT스테이킹</h3>
+                <p>CyberMiles App을 통해 블록 포상을 얻으려면 CMT를 하나의 Validator에 투표하셔야 합니다.연간 수익률은 시장 상황에 따라 최대 20 %입니다. CyberMiles App을 다운로드하고 최소 1,000 CMT를 입금하면 됩니다 (CoinMarketCap의 데이터를 기준으로 $ 39, 2019 년 6 월 27 일)</p>
+                <a class="btn btn-rm" href="https://earn.cybermiles.io/" onclick="gaSend('cmt-staking', 'staking')">더 읽기 <i class="lni-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="fairplay" class="row mt">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="text-wrapper wow fadeInRight" data-wow-delay="0.9s">
+              <div>
+                <p class="btn btn-subtitle">FairPlay</p>
+                <h3>Win giveaways</h3>
+                <p>FairPlay DApp는 스마트 계약을 통해 공정하고 투명한 자동 상금 추첨을 실시합니다. 그것은 영화 티켓, 무인 비행기, 립스틱, 전기 면도기 및 크립토 통화와 같은 많은 종류의 제품을 제공합니다. FairPlay DApp을 통해 누구나 제품 경품 행사 및 전자 상거래 마케팅 캠페인을 만들고 참여할 수있습니다.</p>
+                <a class="btn btn-rm" href="https://www.fairplaydapp.com/" onclick="gaSend('giveaways', 'fairplay')">바로 참여하기 <i class="lni-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+           <div class="d-none d-lg-block col-lg-6 col-md-12 col-sm-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="1.2s">
+              <img class="img-fluid" src="img/features/giveaway.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div id="payment" class="row mt">
+          <div class="d-none d-lg-block col-lg-6 col-md-12 col-sm-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+              <img class="img-fluid" src="img/features/payment.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="text-wrapper wow fadeInRight" data-wow-delay="0.6s">
+              <div>
+                <p class="btn btn-subtitle">더 좋은 지불 방식</p>
+                <h3>토큰으로 지불</h3>
+                <p>CyberMiles App은 파트너 가맹점이나 식당에서 미화로 사용할 수있는 "기프트 카드"와 토큰을 저장하고 관리 할 수 있습니다.</p>
+                <p>unbanked 들어, 이것은 신용 카드 및 직불 카드 이상의 모바일 지불입니다.</p>
+                <a class="btn btn-rm" href="https://www.sanmarcoscoin.com/"onclick="gaSend('SMC', 'payment')">San Marcos코인 정보 <i class="lni-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features Section End -->   
+
+    <!-- Awesome Screens Section Start -->
+    <section id="screenshots" class="screens-shot section">
+      <div class="container">
+        <div class="section-header">   
+          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">스크린 숏</p>       
+          <h2 class="section-title">앱 스크린</h2>
+        </div>
+        <div class="row">
+          <div class="touch-slider owl-carousel">
+            <div class="item">
+              <div class="screenshot-thumb">
+                <img class="img-fluid" src="img/screenshot/screenshot-home.png" alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="screenshot-thumb">
+                <img class="img-fluid" src="img/screenshot/screenshot-staking-log.png" alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="screenshot-thumb">
+                <img class="img-fluid" src="img/screenshot/screenshot-dapps.png" alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="screenshot-thumb">
+                <img class="img-fluid" src="img/screenshot/screenshot-giveaway.png" alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="screenshot-thumb">
+                <img class="img-fluid" src="img/screenshot/screenshot-declare.png" alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="screenshot-thumb">
+                <img class="img-fluid" src="img/screenshot/screenshot-profile.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Awesome Screens Section End -->  
+
+    <!-- Testimonial Section Start -->
+    <section id="testimonial" class="section">
+      <div class="container">
+        <div class="section-header">   
+          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">리뷰</p>       
+          <h2 class="section-title">Clients Who Loved Us</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+            <div id="testimonials" class="touch-slider owl-carousel">
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="author">
+                    <div class="img-thumb">
+                      <img src="img/testimonial/img1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="content-inner">
+                    <p class="description">Transfer CMTs quick and free. You can take this as a payment tool.</p>
+                    <div class="author-info">
+                      <h2><a href="#">Yancy Marks</a></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="author">
+                    <div class="img-thumb">
+                    <img src="img/testimonial/img2.png" alt="">
+                    </div>
+                  </div>
+                  <div class="content-inner">
+                    <p class="description">The FairPlay DApp in CyberMiles App is awesome! Based on smart contract, I believe it is the most fair tool of prize drawing.</p>
+                    <div class="author-info">
+                      <h2><a href="#">Ruben Parker</a></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="author">
+                    <div class="img-thumb">
+                    <img src="img/testimonial/img3.png" alt="">
+                    </div>
+                  </div>
+                  <div class="content-inner">
+                    <p class="description">Convenient interface and fast operations.</p>
+                    <div class="author-info">
+                      <h2><a href="#">Furkan Ahmet</a></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="author">
+                    <div class="img-thumb">
+                      <img src="img/testimonial/img2.png" alt="">
+                    </div>
+                  </div>
+                  <div class="content-inner">
+                    <p class="description">Nice Wallet, much faster than ETH.</p>
+                    <div class="author-info">
+                      <h2><a href="#">Criptokitty</a></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="author">
+                    <div class="img-thumb">
+                      <img src="img/testimonial/img1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="content-inner">
+                    <p class="description">The different kinds of DApps in CyberMiles App are very interesting. I used the Declare Your Love DApp to record my love forever on Valentine’s Day. A very special way!</p>
+                    <div class="author-info">
+                      <h2><a href="#">Edson White</a></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Section End -->  
+
+    <!-- Clients Section -->
+    <div id="clients" class="section">
+      <!-- Container Ends -->
+      <div class="container">
+        <!-- Row and Scroller Wrapper Starts -->
+        <div class="row" id="clients-scroller">
+          <div class="client-item-wrapper">
+            <img src="img/clients/img1.png" alt="">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="img/clients/img2.png" alt="">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="img/clients/img3.png" alt="">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="img/clients/img4.png" alt="">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="img/clients/img5.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Client Section End --> 
+
+    <!-- Subcribe Section Start -->
+    <div id="subscribe" class="section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-12 col-xs-12">
+            <div class="subscribe-form">
+              <div class="form-wrapper">
+                <div class="sub-title text-center">
+                  <h3>연락</h3>
+                  <p>l이메일 뉴스 레터를 구독하십시오. 우리는 귀하의 이메일 주소를 절대로 다른 누구와도 공유하지 않을 것입니다.</p>
+                </div>
+                <form action="https://Cybermiles.us18.list-manage.com/subscribe/post?u=bb59ffd4d49e3545cbf99a1fb&amp;id=8482ad6a9c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                  <div class="row">
+                    <div class="col-12 form-line">
+                      <div class="form-group form-search">
+                        <input type="email" class="form-control" name="EMAIL" placeholder="Enter Your Email">
+                        <button type="submit" class="btn btn-common btn-search" value="Subscribe" name="subscribe">Subscribe</button>
+                      </div> 
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Subcribe Section End -->
+
+    <!-- download Section Start -->
+    <section id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12">            
+            <div class="download-thumb wow fadeInLeft" data-wow-delay="0.2s">
+              <img class="img-fluid" src="img/downloadfromappstore.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="download-wrapper wow fadeInRight" data-wow-delay="0.2s">
+              <div>
+                <div class="download-text">
+                  <h4>앱을 다운 받기</h4>
+                  <p>디지털 자산을 안전하게 관리하시며 분권화 된 블록체인 어플리케이션을 경험하십시오.</p>
+                </div>
+                <a href="https://play.google.com/store/apps/details?id=io.cybermiles.cmtwallet" class="btn btn-common btn-effect"><i class="lni-android" onclick="gaSend('install', 'bottom_android')"></i> From PlayStore<br></a>
+                <a href="https://itunes.apple.com/us/app/id1418378426" onclick="gaSend('install', 'bottom_ios')" class="btn btn-apple"><i class="lni-apple"></i> From AppStore<br></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- download Section Start -->
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+      <!-- Container Starts -->
+      <div class="container">
+         <div class="section-header">   
+          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">블로그</p>       
+          <h2 class="section-title">최신 뉴스</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="https://blog.cybermiles.io/post/20190625-cmt-staking-en/" onclick="gaSend('blog1', 'read')">
+                  <img src="img/blog/app-staking.png" alt="">
+                </a>   
+              </div>
+              <div class="blog-item-text"> 
+                <h3><a href="https://blog.cybermiles.io/post/20190625-cmt-staking-en/"onclick="gaSend('blog1', 'read')">CyberMiles App Releases its Newest Version, Enabling Staking Function</a></h3>
+                <div class="author">
+                  <span class="name"><a href="#">Posted by CyberMiles</a></span>
+                  <span class="date float-right">25 June, 2019</span>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="https://blog.cybermiles.io/post/20190516-ecommerce-dao-en/" onclick="gaSend('blog2', 'read')">
+                  <img src="img/blog/dmarketplace.png" alt="">
+                </a>   
+              </div>
+              <div class="blog-item-text"> 
+                <h3><a href="https://blog.cybermiles.io/post/20190516-ecommerce-dao-en/" onclick="gaSend('blog2', 'read')">From the Silk Road to a self-governing DAO, CyberMiles is changing the face of decentralized e-commerce</a></h3>
+                <div class="author">
+                  <span class="name"><a href="#">Posted by CyberMiles</a></span>
+                  <span class="date float-right">16 May, 2019</span>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="https://blog.cybermiles.io/post/20190620-fairplay-dapp-en/" onclick="gaSend('blog3', 'read')">
+                  <img src="img/blog/giveaway.png" alt="">
+                </a>   
+              </div>
+              <div class="blog-item-text"> 
+                <h3><a href="https://blog.cybermiles.io/post/20190620-fairplay-dapp-en/" onclick="gaSend('blog3', 'read')">FairPlay: a new type of DApp</a></h3>
+                <div class="author">
+                  <span class="name"><a href="#">Posted by CyberMiles</a></span>
+                  <span class="date float-right">20 June, 2019</span>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog Section End -->
+
+    <!-- Footer Section Start -->
+    <footer>
+      <!-- Footer Area Start -->
+      <section class="footer-Content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+              <img src="img/logo.png" alt="">
+              <div class="textwidget">
+                <p>CyberMiles (CMT) is world's No.1 blockchain platform for e-commerce. It is the next generation e-commerce platform that returns control and profits back to individuals.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+              <div class="widget">
+                <h3 class="block-title">Exchanges</h3>
+                <ul class="menu">
+                  <li><a href="https://www.binance.com/cn?ref=11560295">Binance</a></li>
+                  <li><a href="https://www.huobi.co/en-us/topic/invited/?invite_code=q3ut3">Huobi</a></li>
+                  <li><a href="https://www.okex.com/lang/en-US/">OKEx</a></li>
+                  <li><a href="https://www.bithumb.com/">Bithumb</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+              <div class="widget">
+                <h3 class="block-title">Tools</h3>
+                <ul class="menu">
+                  <li><a href="https://www.cmttracking.io/">Explorer</a></li>
+                  <li><a href="http://europa.cybermiles.io/">Online IDE</a></li>
+                   <li><a href="https://chrome.google.com/webstore/detail/venus/hmiddckbbijmdkamphkgkelnjjdkicck">Venus Wallet</a></li>
+                  <li><a href="https://www.litylang.org/">Lity Language</a></li>
+                 
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+              <div class="widget">
+                <h3 class="block-title">Social</h3>
+                <ul class="menu">
+                  <li><a class="facebook" href="https://www.facebook.com/cybermiles">Facebook</a></li>
+                  <li><a class="twitter" href="https://twitter.com/cybermiles">Twitter</a></li>
+                  <li><a class="Telegram" href="https://t.me/cybermilestoken">Telegram</a></li>
+                  <li><a href="https://www.cybermiles.io/en-us/about-us/contact-us/">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Copyright Start  -->
+        <div class="copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="site-info float-left">
+                  <p>&copy; 2019 - CyberMiles Foundation</p>
+                </div>              
+                <div class="float-right">  
+                  <ul class="footer-support">
+                     <!--
+                    <li><a href="https://www.cybermiles.io/en-us/terms/">Terms & Condition</a></li>
+                    <li><a href="https://www.cybermiles.io/en-us/about-us/contact-us/">Contact Us</a></li>
+                    <li><a href="https://www.cybermiles.io/en-us/privacy/">Privacy Policy</a></li>i>
+                    <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
+                    <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+                    -->
+                  </ul> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- Copyright End -->
+      </section>
+      <!-- Footer area End -->
+      
+    </footer>
+    <!-- Footer Section End --> 
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="lni-chevron-up"></i>
+    </a> 
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script> 
+    <script src="js/jquery.mixitup.js"></script>       
+    <script src="js/jquery.nav.js"></script>    
+    <script src="js/scrolling-nav.js"></script>    
+    <script src="js/jquery.easing.min.js"></script>     
+    <script src="js/wow.js"></script>   
+    <script src="js/jquery.counterup.min.js"></script>     
+    <script src="js/nivo-lightbox.js"></script>     
+    <script src="js/jquery.magnific-popup.min.js"></script>     
+    <script src="js/waypoints.min.js"></script>      
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>   
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>
