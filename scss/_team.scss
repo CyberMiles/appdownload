@@ -1,6 +1,14 @@
 /* ==========================================================================
  Team Section
    ========================================================================== */
+   #dapps {
+    background: #f6fbfd;
+   }
+   #dapps {
+     .row {
+       justify-content: center;
+     }
+   }
    .single-team:hover .team-details{
     opacity: 1;
    }

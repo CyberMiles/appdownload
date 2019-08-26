@@ -1190,10 +1190,6 @@ button:focus {
 /* ==========================================================================
  Screens Section Start
  ========================================================================== */
-.screens-shot {
-  background: #f6fbfd;
-}
-
 #screens .owl-controls .owl-buttons {
   position: relative;
   top: -215px;
@@ -1240,6 +1236,12 @@ button:focus {
 /* ==========================================================================
  Team Section
    ========================================================================== */
+#dapps {
+  background: #f6fbfd;
+}
+#dapps .row {
+  justify-content: center;
+}
 .single-team:hover .team-details {
   opacity: 1;
 }
